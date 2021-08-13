@@ -1,0 +1,19 @@
+{
+  "name": "Portafolio - Barragán Alfredo",
+  "short_name": "Portafolio ZKC",
+  "description": "Bienvenid@s al Progressive Web Apps de mi Portafolio",
+  "background_color": "#2B2B2B",
+  "theme_color": "#F0DB4F",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-ARG",
+  "icons": [
+    {
+      "src": "./img/logozkc.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
