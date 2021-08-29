@@ -39,7 +39,7 @@ body {
 }
 body::-webkit-scrollbar {
   width: 0.8rem;
-  background-color: #fff;
+  background-color: #616B6D;
 }
 body::-webkit-scrollbar-thumb {
   background: #03a9f4;
@@ -88,12 +88,11 @@ body::-webkit-scrollbar-thumb {
 .container-project::-webkit-scrollbar,
 .container-certificate::-webkit-scrollbar {
   width: 0.8rem;
-  background-color: #fff;
+  background-color: #616B6D;
 }
 .container-service::-webkit-scrollbar-thumb,
 .container-project::-webkit-scrollbar-thumb,
 .container-certificate::-webkit-scrollbar-thumb {
-  border-radius: 0.6rem;
   background: #03a9f4;
 }
 .container-popup {
@@ -774,9 +773,15 @@ body::-webkit-scrollbar-thumb {
   .container-skill h1 {
     font-size: 2.5rem;
   }
-  .container-service {
+  .container-about,
+  .container-service,
+  .container-certificate,
+  .container-project,
+  .container-skill{
     margin: 1.5rem;
-    padding: 0px;
+  }
+  .container-service {
+    padding: 2rem 0px 0px 0px;
   }
   .service-article,
   .project-article {
@@ -866,7 +871,7 @@ body::-webkit-scrollbar-thumb {
     border: 0.8rem solid #ecf0f3;
   }
   .grid-list p {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   .service-article {
     margin: 1rem 0px;
