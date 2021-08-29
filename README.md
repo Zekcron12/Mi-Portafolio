@@ -34,3 +34,4 @@
 ---
 
 ### Version
+https://img.shields.io/badge/<Versión>-<2.6>-<#053337>
