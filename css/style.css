@@ -773,6 +773,9 @@ body::-webkit-scrollbar-thumb {
   .container-skill h1 {
     font-size: 2.5rem;
   }
+  .container-about p {
+    font-size: 1.2rem;
+  }
   .container-about,
   .container-service,
   .container-certificate,
@@ -782,6 +785,9 @@ body::-webkit-scrollbar-thumb {
   }
   .container-service {
     padding: 2rem 0px 0px 0px;
+  }
+  .certificate-article {
+    width: 30rem;
   }
   .service-article,
   .project-article {
@@ -862,6 +868,9 @@ body::-webkit-scrollbar-thumb {
   .container-skill {
     margin: 1.5rem;
     padding: 1.5rem;
+  }
+  .certificate-article {
+    width: 28rem;
   }
   .service-list {
     grid-gap: 0.8rem;
