@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1B7578">
+    <meta name="description" content="Portafolio">
+    <meta name="author" content="Zekcron">
+    <meta name="copyright" content="Todos los derechos reservados ©">
+
+    <!-------------------- Progressive Web Apps - PWA -------------------->
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" type="image/png" href="img/logozkc.png">
+    <link rel="apple-touch-icon" href="img/logozkc.png">
+    <link rel="apple-touch-startup-image" href="img/logozkc.png">
+    <link rel="manifest" href="manifest.json">
+    <!-------------------- Progressive Web Apps - PWA -------------------->
+
+    <title>Portafolio | Barragán Alfred</title>
+
+   
+    <script src="https://kit.fontawesome.com/c3a0547943.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" type="image/png" href="img/logopag.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mododark.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+
+  <!-- ****************************** Portada ****************************** -->
+  <main class="block-uno"> <!--contenedor-portada-->
+
+    <section class="container-circle"> <!--img-area-->
+      <div class="circle-perfil"> <!--area-interna-->
+        <img src="img/zkc.png" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <button class="mododark" id="IDdark">
+      <span><i class="fas fa-sun"></i></span>
+      <span><i class="fas fa-moon"></i></span>
+    </button>
+    <div class="icon dots">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <h1 class="title-main animate__animated animate__fadeInDown animate__delay-1s 1s"><!--name-->
+      Alfred Barragán
+    </h1>
+    <h2 class="subtitle-main animate__animated animate__fadeInDown animate__delay-1s 1s"><!--about-->
+     Developer JS
+    </h2>
+
+    <section class="social-icons">
+      <a href="https://facebook.com/AlfredCallejero" target="_blank" class="fb">
+      <i class="fab fa-facebook-f"></i>
+      </a>
+
+      <a href="https://twitter.com/Alfred17_" target="_blank" class="twitter">
+      <i class="fab fa-twitter"></i>
+      </a>
+
+      <a href="https://instagram.com/barragan.alfred12" target="_blank" class="insta">
+      <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="https://github.com/Zekcron12" target="_blank" class="yt">
+      <i class="fab fa-github"></i>
+      </a>
+    </section>
+
+    <div class="button-perfil"> <!-- botenes-perfil -->
+      <button id="open">Sobre Mí</button>
+      <button id="open9">Servicios</button>
+    </div>
+
+    <section class="container-activity"> <!-- social-perfil -->
+
+      <div class="activity-colum"> <!-- social-fila -->
+        <i class="fas fa-medal" id="open7"></i>
+        <span>+5 Cursos</span>
+      </div>
+
+      <div class="activity-colum">
+        <i class="fas fa-code" id="open8"></i>
+        <span>+40 Proyectos</span>
+      </div>
+
+      <div class="activity-colum">
+        <i class="fas fa-user-graduate"></i>
+        <span><a href="#" target="_blank">Censurado</a></span>
+      </div>
+    </section>
+  </main>
+  <!-- ****************************** Portada ****************************** -->
+
+
+  <!-- ****************************** Habilidades ****************************** -->
+  <section class="block-dos"> <!-- container-technology -->
+
+    <div class="title-technology"> <!-- habilidades-title -->
+      <h1>TECNOLOGÍAS</h1>
+    </div>
+  
+    <div class="colum-technology"> <!-- frame -->
+      <div class="separar">
+        <i class="button-technology" id="open1"><img src="img/svg/html5.png" class="img-style"></i><!-- btn -->
+        <i class="button-technology" id="open2"><img src="img/svg/css3.png" class="img-style"></i>
+      </div>
+      <div class="separar">
+        <i class="button-technology" id="open3"><img src="img/svg/js.png" class="img-style"></i>
+        <i class="button-technology" id="open4"><img src="img/svg/pwa.png" class="img-style"></i>
+      </div>
+      <div class="separar">
+        <i class="button-technology" id="open5"><img src="img/svg/netlify.png" class="img-style"></i>
+        <i class="button-technology" id="open6"><img src="img/svg/firebase.png" class="img-style"></i>
+      </div>
+    </div>
+  </section>
+  <!-- ****************************** Habilidades ****************************** -->
+
+
+  <!-- ****************************** PopUp SOBRE MI ****************************** -->
+  <section id="IDabout" class="container-popup">
+    <div class="container-about"><!--modal-->
+
+      <button id="close" class="button-popup"><!--boton-popup-->
+        <i class="fas fa-times-circle"></i>
+      </button>
+
+      <div class="container-circle">
+        <div class="circle-perfil">
+          <img src="img/zkc.jpg" alt="Foto de perfil">
+        </div>
+      </div>
+
+      <h1>Sobre Mí</h1>
+      <p>¡Hola! Bienvenido a mi portafolio, mi nombre es Alfred Barragán. Soy estudiante autónomo en Desarrollo Web.</p>
+      <p>Creo páginas con diseños minimalistas, elegantes, modernas y profesionales. Actualmente estoy en aprender y pulir lo máximo del lenguaje de programación JavaScript y sus librerías.</p>
+    </div>
+  </section>
+  <!-- ****************************** PopUp SOBRE MI ****************************** -->
+
+
+  <!-- ****************************** PopUp SERVICIOS ****************************** -->
+  <section id="IDservice" class="container-popup">
+    <div class="container-service">
+
+      <button id="close9" class="button-popup">
+        <i class="fas fa-times-circle"></i>
+      </button>
+
+      <h1>Servicios</h1>
+
+      <article class="service-article">
+        <h2>¿Por qué tener una pagina web?</h2>
+        <p>La implementación de una plataforma web para tu negocio ayudará a que muchos procesos internos y externos sean optimizados.  Tales como la comunicación, reducción de costos, mayor productividad y brindar una experiencia única al usuario.</p>
+        <hr style="width:100%";>
+        <p>La creación de una página web te permite transmitir una correcta información
+        sobre los productos o servicios de tu marca basada en la experiencia de usuario (UX).</p>
+      </article>
+
+      <article class="service-article">
+        <h2>¿Cuál es mi metodología de trabajo?</h2>
+        <p>Planificar y desarrollar sitios webs que respondan tanto a las necesidades de la empresa como a las de los usuarios. Manteniendo la siguiente gestión: </p>
+
+        <div class="service-list"><!--servicios-lista-->
+
+          <div class="grid-list"> <!--inner-->
+            <img class="svg" src="img/svg/numero1.svg" alt=""/>
+            <h3>Cliente</h3>
+            <p>Información</p>
+            <p>Borrador</p> 
+            <p>Acuerdo</p>
+          </div>
+
+          <div class="grid-list">
+            <img class="svg" src="img/svg/numero2.svg" alt=""/>
+            <h3>Análisis</h3>
+            <p>Investigación</p>
+            <p>Organización</p>
+            <p>Planificación</p>
+          </div>
+
+          <div class="grid-list">
+            <img class="svg" src="img/svg/numero3.svg" alt="">
+            <h3>Diseño</h3>
+            <p>Interfaces (UI) </p>
+            <p>Experiencia (UX) </p>
+            <p>Prototipo</p>
+          </div>
+
+          <div class="grid-list">
+            <img class="svg" src="img/svg/numero4.svg" alt=""/>
+            <h3>Finalización</h3>
+            <p>Desarrollo</p>
+            <p>Optimización</p>
+            <p>Entrega</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- ****************************** PopUp SERVICIOS ****************************** -->
+
+
+  <!-- ****************************** PopUp SKILLS ****************************** -->
+  <section id="modal_html" class="container-popup">
+    <div class="container-skill">
+      <button id="close1" class="button-popup">
+        <i class="fas fa-times-circle"></i>
+      </button>
+      <h1>HTML5</h1>
+      <p>Buen dominio con la sintaxis para lograr un código flexible, limpio y profesional. Correcto uso de HTML semántico para brindar una mejor optimización y ventaja respecto al posicionamiento SEO.</p>
+    </div>
+  </section>
+
+  <section id="modal_css" class="container-popup">
+    <div class="container-skill">
+      <button id="close2" class="button-popup">
+        <i class="fas fa-times-circle"></i>
+      </button>
+      <h1>CSS3</h1>
+      <p>Buen nivel para estructurar diseños. Maquetación de sistemas unidimensional (flexbox) y bidimensional (grid). Correcto uso de la metodología BEM, además de Responsive Design y Mobile First.</p>
+    </div>
+  </section>
+
+  <section id="modal_js" class="container-popup">
+    <div class="container-skill">
+      <button id="close3" class="button-popup">
+        <i class="fas fa-times-circle"></i>
+      </button>
+      <h1>JavaScript</h1>
+      <p>Buen nivel con vanilla JS. Me brinda las herramientas necesarias como lenguaje de programación para definir la lógica de todos los proyectos, ya que puede dotar de interactividad y dinamismo.</p>
+    </div>
+  </section>
+
+  <section id="modal_sass" class="container-popup">
+    <div class="container-skill">
+      <button id="close4" class="button-popup">
+        <i class="fas fa-times-circle"></i>
+      </button>
+      <h1>PWA</h1>
+      <p>Utilizo la tecnología de Progressive Web App para que la base de las páginas webs tengan una estética y funcionamiento que se asemejen enormemente a una App nativa. Además me brinda excelentes características, ya que es segura, rápida, responsive y offline.</p>
+    </div>
+  </section>
+
+  <section id="modal_git" class="container-popup">
+    <div class="container-skill">
+      <button id="close5" class="button-popup">
+        <i class="fas fa-times-circle"></i>
+      </button>
+      <h1>Netlify</h1>
+      <p>Buen nivel con la tecnología Netlify. Utilizo este servicio para hospedar mis repositorios de código abierto ya que me brinda hosting gratis y seguridad. También me permite realizar cualquier mantenimiento o cambio en línea de una forma rápida y sencilla acompañado de GitHub.</p>
+    </div>
+  </section>
+
+  <section id="modal_ps" class="container-popup">
+    <div class="container-skill">
+      <button id="close6" class="button-popup">
+        <i class="fas fa-times-circle"></i>
+      </button>
+      <h1>Firebase</h1>
+      <p>Nivel básico en Firebase. Utilizo esta tecnología para la creación de tanto aplicaciones webs como móviles y su desarrollo. Además me brinda la excelente herramienta de apoyo del lado del servidor (Backend) de la cual carezco de conocimiento actualmente.</p>
+    </div>
+  </section>
+  <!-- ****************************** PopUp SKILLS ****************************** -->
+
+  <!-- ****************************** PopUp CERTIFICADOS ****************************** -->
+  <section id="IDcourse" class="container-popup">
+    <div class="container-certificate">
+      <button id="close7" class="button-popup">
+        <i class="fas fa-times-circle"></i>
+      </button>
+      <h1>Certificados</h1>
+      <article class="certificate-article">
+        <h2>Curso HTML5 edición 2021</h2>
+        <span><a href="#" target="_blank">Ver certificado</a></span>
+      </article>
+      <article class="certificate-article">
+        <h2>Curso HTML5 edición 2020</h2>
+        <span><a href="#" target="_blank">Ver certificado</a></span>
+      </article>
+      <article class="certificate-article">
+        <h2>Curso CSS3 edición 2021</h2>
+        <span><a href="#" target="_blank">Ver certificado</a></span>
+      </article>
+    </div>
+  </section>
+  <!-- ****************************** PopUp CERTIFICADOS ****************************** -->
+
+
+  <!-- ****************************** PopUp PROYECTOS ****************************** -->
+  <section id="IDproject" class="container-popup"><!-- curso-container -->
+    <div class="container-project"><!-- curso -->
+
+      <button id="close8" class="button-popup">
+        <i class="fas fa-times-circle"></i>
+      </button>
+      <h1>Proyectos</h1>
+
+      <div class="project">
+        <article class="project-article"> <!-- certificados -->
+          <a href="https://zkc-gallery.netlify.app/" target="_blank">
+            <img src="img/proyectos/img-fija.png" alt="portada del proyecto">
+          </a>
+          <br><br>
+          <h2><a href="https://zkc-gallery.netlify.app/" target="_blank">Galeria</a></h2>
+          <p>MiniProyectos de HTML + CSS + JAVASCRIPT</p>
+        </article>
+
+        <article class="project-article"> <!-- certificados -->
+          <a href="https://zkc-apptareas.netlify.app/" target="_blank">
+            <img src="img/proyectos/p5.png" alt="portada del proyecto">
+          </a>
+          <br><br>
+          <h2><a href="https://zkc-apptareas.netlify.app/" target="_blank">App Tarea - JS + Firebase</a></h2>
+          <p>Proyecto de práctica en JavaScript.</p>
+        </article>
+
+        <article class="project-article"> <!-- certificados -->
+          <a href="https://zkc-buscartesorojs.netlify.app" target="_blank">
+            <img src="img/proyectos/p4.png" alt="portada del proyecto">
+          </a>
+          <br><br>
+          <h2><a href="https://zkc-buscartesorojs.netlify.app" target="_blank">Buscar Tesoro - JS</a></h2>
+          <p>Proyecto de práctica en JavaScript.</p>
+        </article>
+
+        <article class="project-article">
+          <a href="https://zkc-climajs.netlify.app/" target="_blank">
+            <img src="img/proyectos/p3.png" alt="portada del proyecto">
+          </a>
+          <br><br>
+          <h2><a href="https://zkc-climajs.netlify.app/" target="_blank">Clima - JS</a></h2>
+          <p>Proyecto de práctica en JavaScript.</p>
+        </article>
+
+        <article class="project-article">
+          <a href="https://zkc-cronometrojs.netlify.app/" target="_blank">
+            <img src="img/proyectos/p2.png">
+          </a>
+          <br><br>
+          <h2><a href="https://zkc-cronometrojs.netlify.app/" target="_blank">Cronómetro - JS</a></h2>
+          <p>Proyecto de práctica en JavaScript.</p>
+        </article>
+
+        <article class="project-article">
+          <a href="https://formulario-validacion.netlify.app/" target="_blank">
+            <img src="img/proyectos/p1.png">
+          </a>
+          <br><br>
+          <h2><a href="https://formulario-validacion.netlify.app/" target="_blank">Formulario</a></h2>
+          <p>Proyecto de práctica en JavaScript.</p> 
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- ****************************** PopUp PROYECTOS ****************************** -->
+
+
+  <!-- ****************************** CONTACTO ****************************** -->
+  <section class="block-tres">
+      <form action="submit-task" class="container-contact" id="IDform">
+        <h1>CONTACTO</h1>
+        <span>Correo</span>
+        <div class="input-email" id="IDemail">
+          <input type="text" name="email" placeholder="Escriba su Correo" value="" autocomplete="off">
+        </div>
+        <span>Mensaje</span>
+        <div class="input-msj" id="IDmsj">
+          <input type="text" name="msj" placeholder="Escriba su Mensaje" value="" autocomplete="off">
+        </div>
+        <button class="button-contact" id="IDbutton" name="lock">Enviar</button>
+        <p class="text-invalid" id="IDtext-1">Casilleros incompletos</p>
+        <p class="text-invalid" id="IDtext-2">Los datos son incorrectos</p>
+        <p class="text-invalid" id="IDtext-3">¡Enviado!</p>
+      </form>
+  </section>
+  <!-- ****************************** CONTACTO ****************************** -->
+  
+
+  <!-- ****************************** FOOTER ****************************** -->
+  <div class="block-cuatro"><!--contenedor-secciones-->
+    <div class="footer">
+      <p>Todos los derechos reservados &copy;</p>
+      <p>2021 | Zekcron |</p>
+    </div>
+  </div>
+  <!-- ****************************** FOOTER ****************************** -->
+
+
+  <!-- ****************************** FIRE BASE ****************************** -->
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-firestore.js"></script>
+
+
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+  <script>
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCrAzjyGFwUzJ0S4FkHXbVn2LRbjR-5s2Q",
+    authDomain: "zkc-correos.firebaseapp.com",
+    projectId: "zkc-correos",
+    storageBucket: "zkc-correos.appspot.com",
+    messagingSenderId: "584137484461",
+    appId: "1:584137484461:web:93ddafb133876f2223fe24",
+    measurementId: "G-KTXZHCTH4L"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  var db = firebase.firestore();
+  </script>
+  <script src="js/main.js"></script>
+  <script src="js/popup.js"></script>
+  <script src="script.js"></script>
+
+  <!-- ****************************** FIRE BASE ****************************** -->
+
+</body>
+</html>
