@@ -2,6 +2,7 @@
 ### Descripcion
 <div align="center">
 	<img src="/readme/logozkc.png" alt="Logo" width="220px" height=="220px" align="right">
+	<br>
 	<p align="left"><em>
 		Repositorio del Portafolio 2021
 		<br>
@@ -15,7 +16,7 @@
 		<br>
 		<br>
 		<br>
-		</em></p> 
+	</em></p> 
 </div>
 
 ---
@@ -32,4 +33,4 @@
 
 ---
 
-###Version
+### Version
