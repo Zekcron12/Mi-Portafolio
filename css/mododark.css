@@ -1,0 +1,249 @@
+/* ---------- Modo Dark ---------- */
+:root {
+  --dark-fondo: #131319;
+  --dark-title: #03a9f4;
+  --dark-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+               5px 5px 15px rgba(0, 0, 0, 0.5);
+  --dark-unico: -7px -7px 10px 0px rgba(255, 255, 255, 0.05),
+        -4px -4px 5px 0px rgba(255, 255, 255, 0.05),
+        7px 7px 10px 0px rgba(0, 0, 0, 0.5),
+        4px 4px 5px 0px rgba(0, 0, 0, 0.5),
+        inset 0px 0px 0px 0px rgba(255, 255, 255, 0.05),
+        inset 0px 0px 0px 0px rgba(255, 255, 255, 0.05),
+        inset 0px 0px 0px 0px rgba(255, 255, 255, 0.05),
+        inset 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+  --dark-adentro: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+              inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+body.dark {
+  background: var(--dark-fondo);
+  transition: background 0.5s ease;
+  transition: box-shadow 0.5s ease;
+}
+/*--------- Bloques ---------*/
+.dark .block-uno,
+.dark .block-dos,
+.dark .block-tres,
+.dark .footer,
+/*--------------------------*/
+.dark .container-circle,
+.dark .social-icons a,
+.dark .button-perfil button,
+.dark .contact button,
+/*--------------------------*/
+.dark .container-about,
+.dark .container-service,
+.dark .container-certificate,
+.dark .container-project,
+.dark .container-skill,
+/*--------------------------*/
+.dark .service-article,
+.dark .certificate-article,
+.dark .project-article,
+/*--------------------------*/
+.dark .grid-list,
+.dark .project-article img,
+.dark .button-contact  {
+  background: var(--dark-fondo);
+  box-shadow: var(--dark-shadow);
+  transition: box-shadow 0.5s ease;
+}
+.dark .grid-list {
+  border: 12px solid #131319;
+}
+
+/*--------- title ---------*/
+.dark .title-main,
+.dark .subtitle-main,
+.dark .button-perfil button,
+.dark .contact button,
+.dark .activity-colum span,
+.dark .activity-colum span a,
+/*--------------------------*/
+.dark .title-technology h1,
+.dark .footer p,
+/*--------------------------*/
+.dark .container-about h1,
+.dark .container-service h1,
+.dark .container-service h3,
+.dark .container-certificate h1,
+.dark .container-project h1,
+.dark .container-skill h1,
+.dark .project-article h2 a,
+.dark .container-contact h1,
+.dark .container-contact span,
+.dark .button-contact {
+  color: var(--dark-title);
+  transition: color 0.5s ease;
+}
+
+.dark .activity-colum i {
+  background: var(--dark-fondo);
+  box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+/*---------- Parrafos ---------*/
+.dark .fa-medal:before, 
+.dark .fa-code:before, 
+.dark .fa-user-graduate:before,
+/*--------------------------*/
+.dark .container-about p,
+.dark .container-service p,
+.dark .container-certificate p,
+.dark .container-skill p, 
+.dark .project-article p,
+.dark .certificate-article span a,
+.dark .input-email input,
+.dark .input-msj input,
+.dark .active-error input,
+.dark .active-correct input  {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.dark .certificate-article h2 {
+  color: #EC1B1B;
+}
+/*-------- Ventana modal --------*/
+.dark .mododark,
+.dark .button-technology,
+.dark .container-about,
+.dark .container-service{
+  background: var(--dark-fondo);
+  box-shadow: var(--dark-unico);
+  transition: all 0.3s ease;
+}
+
+/*------ Sombra hacia dentro ------ */
+.dark .social-icons a:hover::before,
+.dark .block-uno .icon:hover::before,
+.dark .button-perfil button:hover:before,
+.dark .certificate-article:hover,
+.dark .project-article:hover,
+.dark .contact button:hover:before,
+.dark .input-email input,
+.dark .input-msj input,
+.dark .active-error input,
+.dark .active-correct input,  
+.dark .button-contact:hover {
+  background: var(--dark-fondo);
+  box-shadow: var(--dark-adentro);
+}
+
+/*------ Icon boton dark ------ */
+.dark .fa-sun:before {
+  color: #DDFF20;
+}
+.fa-moon:before {
+  color: #000;
+}
+.dark .social-icons a.yt i{
+  color: #fff;
+}
+
+/*------ Botones - PopUp ------ */
+.dark .button-popup {
+  color: var(--dark-title);
+  background: var(--dark-fondo););
+  box-shadow: var(--dark-unico);
+}
+.dark .button-popup:hover:before {
+  background: #fff;
+}
+
+.mododark {
+  position: absolute;
+  display: flex;
+  width: 6rem;
+  height: 3rem;
+  margin: 1rem;
+  left: 1.5rem;
+  top: 1.5rem;
+  outline: none;
+  background: #ecf0f3;
+  -webkit-appearance: none;
+  cursor: pointer;
+  border-radius: 2rem;
+  box-shadow: -0.3rem -0.3rem 0.7rem #ffffff, 
+              0.3rem 0.3rem 0.5rem #ceced1;
+  transition: 0.5s;
+  border: none;
+}
+.mododark.active {
+  background: #20b7ff;
+  background: var(--dark-fondo);
+  transition: 0.5s
+}
+.mododark .fa-sun, .fa-moon {
+  font-size: 1.6rem;
+}
+.mododark::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: unset;
+  width: 3rem;
+  height: 3rem;
+  background: linear-gradient(to top,#e0e5ec,#e0e5ec);
+  border-radius: 2rem;
+  box-shadow: 0 0 0 0.1rem #ecf0f3;
+  transform: scale(0.98,0.96);
+  transition: 0.5s ease all;
+}
+.mododark.active::before {
+  left: unset;
+  right: 0;
+  box-shadow: 0 0 0 0.1rem #131319;
+  background: linear-gradient(to top,#131319,#555);
+  transition: 0.5s
+}
+.mododark::after {
+  content: '';
+  position: absolute;
+  left: 1.5rem;
+  top: calc(50% - 0.2rem);
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: #555;
+  transition: 0.3s;
+}
+.mododark.active::after {
+  left: calc(3.5rem + 1.5rem);
+  background: #63cdff;
+  box-shadow: 0 0 0.5rem #63cdff,
+        0 0 1.5rem #63cdff,
+        0 0 3rem #63cdff;
+  transition: 0.3s;
+}
+.mododark span {
+  width: 3rem;
+  height: 3rem;
+  line-height: 3.8rem;
+  display: block;
+  background: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+  .mododark {
+    top: 0.3rem;
+    left: 0.3rem;
+    margin: 0.5rem;
+    width: 5rem;
+    height: 2.5rem;
+  }
+  .mododark::before {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .mododark span {
+    line-height: 3.2rem;
+    padding-left: 0.3rem;
+  }
+  .mododark.active::after{
+    left: calc(3.5rem + 0.5rem);
+  }
+}
