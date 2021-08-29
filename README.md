@@ -19,6 +19,7 @@
 	</em></p> 
 </div>
 
+
 ---
 
 ### Imagenes del portafolio
@@ -29,9 +30,31 @@
 ---
 
 ### Destacado
-<p align="center">El portafolio cuenta con las tecnologias de Progressive web apps y Firebase</p>
+**<p align="center">El portafolio cuenta con las tecnologias de Progressive web apps y Firebase</p>**
 
+
+<table align="center">
+  <tr>
+    <td align="center" width="120">
+      <a href="#macropower-tech">
+        <img src="./readme/logozkc.png" width="48" height="48" alt="C#" />
+      </a>
+      <br>
+    </td>
+    <td align="center" width="120">
+      <a href="#macropower-tech">
+        <img src="./readme/logozkc.png" width="48" height="48" alt="Python" />
+      </a>
+      <br>
+    </td>
+ </tr>
+<table>
+<br>
+<br>
+	
 ---
 
 ### Version
-https://img.shields.io/badge/<Versión>-<2.6>-<#053337>
+	
+[<img src="https://img.shields.io/badge/Versi%C3%B3n-2.6-053337"/>](https://github.com/Zekcron12/Mi-Portafolio)
+	
