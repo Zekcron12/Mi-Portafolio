@@ -22,14 +22,14 @@
 
 ---
 
-### Imagenes del portafolio
+### <p align="center">:sparkles: Imagenes del portafolio :sparkles:</p>
 <div align="center">
 <img src="/readme/Banner1.png" alt="Primer Banner" width="829px" height="487px"><img src="/readme/Banner2.png" alt="Segundo Banner" width="829px" height="487px">
 </div>
 
 ---
 
-### Destacado
+### ◆ Destacado :boom:
 **<p align="center">El portafolio cuenta con las tecnologias de Progressive web apps y Firebase</p>**
 
 
@@ -54,7 +54,34 @@
 	
 ---
 
-### Version
+###  ◆ Version :tada: 
+[<img src="https://img.shields.io/badge/Versi%C3%B3n-2.6-053337"/>](https://github.com/Zekcron12/Mi-Portafolio)	
+<p align="justify"> ¡La version 2.6 ya esta aqui!</p>
+<p align="justify"> 
+:heavy_check_mark: Nueva seccion de contacto.
 	
-[<img src="https://img.shields.io/badge/Versi%C3%B3n-2.6-053337"/>](https://github.com/Zekcron12/Mi-Portafolio)
+:heavy_check_mark: Contacto con expresiones regular.
 	
+:heavy_check_mark: Apartado de firebase.
+	
+:heavy_check_mark: Optimizacion de codigo CSS.
+	
+:heavy_check_mark: Mejoras en la estructura de codigo y rendimiento.
+</p>
+
+---
+	
+**<p align="justify">Contenido pendiente para una futura actualizacion de version</p>**	
+
+<p align="justify">
+	
+	✤ Imprementacion de CSS Nesting.
+	
+	✤ Imprementacion de bloque notas.
+	
+	✤ Implementacion de Webpack.
+	
+	✤ Animaciones JS.
+	
+	✤ Optimizacion y rendimiento.
+</p>
