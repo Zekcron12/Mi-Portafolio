@@ -7,6 +7,7 @@ ademas de variables y optimizacion de codigo */
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   font-size: 62.5%; /** Reset para REM - 62.5% | 10px en rem son 16px normales **/
+  transition: 0.5s ease;
 }
 /* ************ Variables ************ */
 :root {
