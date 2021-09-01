@@ -1,5 +1,5 @@
 # [<p align="center">Portafolio Barragán Alfred</p>](https://zkc-portafolio.netlify.app/)
-### Descripcion
+### ◆ Descripcion :apple:
 <div align="center">
 	<img src="/readme/logozkc.png" alt="Logo" width="220px" height=="220px" align="right">
 	<br>
