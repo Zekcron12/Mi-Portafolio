@@ -54,7 +54,7 @@
 	
 ---
 
-###  ◆ Version :tada: 
+###  ◆ Versión :tada: 
 [<img src="https://img.shields.io/badge/Versi%C3%B3n-2.6-053337"/>](https://github.com/Zekcron12/Mi-Portafolio)	
 <p align="justify"> ¡La versión 2.6 ya está aquí! </p>
 <p align="justify"> 
@@ -72,7 +72,7 @@
 
 ---
 	
-**<p align="justify">Contenido pendiente para una futura actualizacion de version</p>**	
+**<p align="justify">Contenido pendiente para una futura actualización de versión</p>**	
 
 <p align="justify">
 	
