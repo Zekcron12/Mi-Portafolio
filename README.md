@@ -78,7 +78,7 @@
 	
 	✤ Implementación de CSS Nesting.
 	
-	✤ Implementación de bloque notas.
+	✤ Implementación de un Bloque de notas.
 	
 	✤ Implementación de Webpack.
 	
