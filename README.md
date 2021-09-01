@@ -8,10 +8,10 @@
 		<br>
 		<br>
 		<br>
-		Se mantiene en constantes actualizaciones
-		a medida que aumentan los conocimientos en el campo
-		para representar una imagen de todo lo que se va 
-		adquieriendo con el tiempo y la practica.
+			Se mantiene en constantes actualizaciones 
+			a medida que aumentan los conocimientos en el campo 
+			para representar una imagen de todo lo que se va 
+			adquiriendo con el tiempo y la practica.
 		<br>
 		<br>
 		<br>
