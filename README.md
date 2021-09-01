@@ -37,13 +37,13 @@
   <tr>
     <td align="center" width="120">
       <a href="#macropower-tech">
-        <img src="./readme/logozkc.png" width="48" height="48" alt="C#" />
+        <img src="./readme/pwa.png" width="48" height="48" alt="PWA" />
       </a>
       <br>
     </td>
     <td align="center" width="120">
       <a href="#macropower-tech">
-        <img src="./readme/logozkc.png" width="48" height="48" alt="Python" />
+        <img src="./readme/firebase.png" width="48" height="48" alt="Firebase" />
       </a>
       <br>
     </td>
