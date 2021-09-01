@@ -30,7 +30,7 @@
 ---
 
 ### ◆ Destacado :boom:
-**<p align="center">El portafolio cuenta con las tecnologias de Progressive web apps y Firebase</p>**
+**<p align="center">El portafolio cuenta con las tecnologías de Progressive web apps y Firebase</p>**
 
 
 <table align="center">
