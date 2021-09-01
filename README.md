@@ -56,17 +56,18 @@
 
 ###  ◆ Version :tada: 
 [<img src="https://img.shields.io/badge/Versi%C3%B3n-2.6-053337"/>](https://github.com/Zekcron12/Mi-Portafolio)	
-<p align="justify"> ¡La version 2.6 ya esta aqui!</p>
+<p align="justify"> ¡La versión 2.6 ya está aquí! </p>
 <p align="justify"> 
-:heavy_check_mark: Nueva seccion de contacto.
+:heavy_check_mark: Nueva sección de contacto.
 	
 :heavy_check_mark: Contacto con expresiones regular.
 	
-:heavy_check_mark: Apartado de firebase.
+:heavy_check_mark: Apartado de Firebase.
 	
-:heavy_check_mark: Optimizacion de codigo CSS.
+:heavy_check_mark: Optimización de código CSS.
 	
-:heavy_check_mark: Mejoras en la estructura de codigo y rendimiento.
+:heavy_check_mark: Mejoras en la estructura de código y rendimiento.
+
 </p>
 
 ---
@@ -75,13 +76,14 @@
 
 <p align="justify">
 	
-	✤ Imprementacion de CSS Nesting.
+	✤ Implementación de CSS Nesting.
 	
-	✤ Imprementacion de bloque notas.
+	✤ Implementación de bloque notas.
 	
-	✤ Implementacion de Webpack.
+	✤ Implementación de Webpack.
 	
 	✤ Animaciones JS.
 	
-	✤ Optimizacion y rendimiento.
+	✤ Optimización y rendimiento.
+
 </p>
