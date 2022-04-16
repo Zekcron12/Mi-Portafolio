@@ -23,7 +23,6 @@ body.dark {
 /*--------- Bloques ---------*/
 .dark .block-uno,
 .dark .block-dos,
-.dark .block-tres,
 .dark .footer,
 /*--------------------------*/
 .dark .container-circle,
@@ -32,24 +31,17 @@ body.dark {
 .dark .contact button,
 /*--------------------------*/
 .dark .container-about,
-.dark .container-service,
 .dark .container-certificate,
 .dark .container-project,
 .dark .container-skill,
 /*--------------------------*/
-.dark .service-article,
-.dark .certificate-article,
 .dark .project-article,
 /*--------------------------*/
-.dark .grid-list,
 .dark .project-article img,
 .dark .button-contact  {
   background: var(--dark-fondo);
   box-shadow: var(--dark-shadow);
   transition: box-shadow 0.5s ease;
-}
-.dark .grid-list {
-  border: 12px solid #131319;
 }
 
 /*--------- title ---------*/
@@ -57,58 +49,37 @@ body.dark {
 .dark .subtitle-main,
 .dark .button-perfil button,
 .dark .contact button,
-.dark .activity-colum span,
-.dark .activity-colum span a,
 /*--------------------------*/
 .dark .title-technology h1,
 .dark .footer p,
 /*--------------------------*/
 .dark .container-about h1,
-.dark .container-service h1,
-.dark .container-service h3,
 .dark .container-certificate h1,
 .dark .container-project h1,
 .dark .container-skill h1,
 .dark .project-article h2 a,
-.dark .container-contact h1,
-.dark .container-contact span,
 .dark .button-contact {
   color: var(--dark-title);
   transition: color 0.5s ease;
 }
 
-.dark .activity-colum i {
-  background: var(--dark-fondo);
-  box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, 0.05);
-  transition: all 0.3s ease;
-}
-
 /*---------- Parrafos ---------*/
-.dark .fa-medal:before, 
 .dark .fa-code:before, 
 .dark .fa-user-graduate:before,
 /*--------------------------*/
 .dark .container-about p,
-.dark .container-service p,
 .dark .container-certificate p,
 .dark .container-skill p, 
 .dark .project-article p,
-.dark .certificate-article span a,
-.dark .input-email input,
-.dark .input-msj input,
 .dark .active-error input,
 .dark .active-correct input  {
   color: #fff;
   transition: all 0.3s ease;
 }
-.dark .certificate-article h2 {
-  color: #EC1B1B;
-}
 /*-------- Ventana modal --------*/
 .dark .mododark,
 .dark .button-technology,
-.dark .container-about,
-.dark .container-service{
+.dark .container-about {
   background: var(--dark-fondo);
   box-shadow: var(--dark-unico);
   transition: all 0.3s ease;
@@ -118,11 +89,8 @@ body.dark {
 .dark .social-icons a:hover::before,
 .dark .block-uno .icon:hover::before,
 .dark .button-perfil button:hover:before,
-.dark .certificate-article:hover,
 .dark .project-article:hover,
 .dark .contact button:hover:before,
-.dark .input-email input,
-.dark .input-msj input,
 .dark .active-error input,
 .dark .active-correct input,  
 .dark .button-contact:hover {
@@ -144,7 +112,7 @@ body.dark {
 /*------ Botones - PopUp ------ */
 .dark .button-popup {
   color: var(--dark-title);
-  background: var(--dark-fondo););
+  background: var(--dark-fondo);
   box-shadow: var(--dark-unico);
 }
 .dark .button-popup:hover:before {

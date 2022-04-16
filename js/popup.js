@@ -15,15 +15,15 @@ close.addEventListener('click', () => {
 
 
 //-------------------- SERVICIOS --------------------//
-const open9 = document.getElementById('open9');
-const SERVICE = document.getElementById('IDservice');
-const close9 = document.getElementById('close9');
+const open8 = document.getElementById('open8');
+const SERVICE = document.getElementById('IDproject'); //IDproject IDservice
+const close8 = document.getElementById('close8');
 
-open9.addEventListener('click', () => {
+open8.addEventListener('click', () => {
   SERVICE.classList.add('show');  
 });
 
-close9.addEventListener('click', () => {
+close8.addEventListener('click', () => {
   SERVICE.classList.remove('show');
 });
 
@@ -105,21 +105,9 @@ close6.addEventListener('click', () => {
   modal_ps.classList.remove('show');
 });
 
-//-------------------- Cursos --------------------//
-const open7 = document.getElementById('open7');
-const COURSE = document.getElementById('IDcourse');
-const close7 = document.getElementById('close7');
-
-open7.addEventListener('click', () => {
-  COURSE.classList.add('show');  
-});
-
-close7.addEventListener('click', () => {
-  COURSE.classList.remove('show');
-});
 
 //-------------------- Proyectos --------------------//
-const open8 = document.getElementById('open8');
+/*const open8 = document.getElementById('open8');
 const PROYECT = document.getElementById('IDproject');
 const close8 = document.getElementById('close8');
 
@@ -129,7 +117,7 @@ open8.addEventListener('click', () => {
 
 close8.addEventListener('click', () => {
   PROYECT.classList.remove('show');
-});
+});*/
 
 
 
